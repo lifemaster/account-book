@@ -1,0 +1,21 @@
+.user-content {
+
+}
+
+.add-user-btn-container {
+  margin-bottom: 20px;
+}
+
+.cell-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: normal !important;
+  text-align: center;
+}
+
+.table-header-cell {
+  font-weight: 500;
+  background: darksalmon;
+  line-height: 30px !important;
+}

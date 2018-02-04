@@ -1,0 +1,6 @@
+.main-content {
+  padding: 15px;
+  position: absolute;
+  height: calc(100% - 94px);
+  width: calc(100% - 30px);
+}

@@ -1,0 +1,25 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "description": "This is rest server for Todo App",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node app.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.11.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2"
+  }
+}
